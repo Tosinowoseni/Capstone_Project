@@ -32,12 +32,7 @@ const HomePage = () => {
       <h1>Home Page for {user.username}!</h1>
       <img src={NikeJordan} alt="shoe" />
       <div class="nav-links">
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
+        
       </div>
       {cars &&
         cars.map((car) => (
