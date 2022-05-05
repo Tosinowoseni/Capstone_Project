@@ -57,7 +57,9 @@ html{
 #menu-bar{
     display: none;
 }
-
+.search-box{
+    position: absolute;
+}
 
 
 
@@ -101,6 +103,8 @@ html{
         top: 100%;
         width: 50rem;
         background: var(--maincolor);
+        height: 100vh;
+        left: 100%;
     }
     .navbar{
         display: block;
