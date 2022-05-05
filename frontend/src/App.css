@@ -31,3 +31,83 @@ html{
     font-size: 3.5rem;
     color: black;
 }
+.navbar a{
+    color:black;
+    font-size: 1.7rem;
+    margin-left: 1rem;
+}
+.navbar a:hover{
+    background-color: var(--maincolor);
+    color: white;
+    border-radius: 10px;
+    padding: 1rem 3rem;
+}
+.icons div{
+    font-size: 2rem;
+    margin-left: 1rem;
+    color: black;
+    cursor: pointer;
+}
+.icons div:hover{
+    background-color: var(--maincolor);
+    color:white;
+    border-radius: 10px;
+    padding: 1rem 3rem;
+}
+#menu-bar{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+    html{
+        font-size: 50%;
+    }
+    #menu-bar{
+        display: inline-block;
+    }
+    .header{
+        padding: 2rem;
+    }
+    .navbar{
+        position: absolute;
+        top: 100%;
+        width: 50rem;
+        background: var(--maincolor);
+    }
+    .navbar{
+        display: block;
+        color: white;
+        background: black;
+        margin: 3rem;
+        padding: 1.5rem;
+        border-radius: 15px;
+    }
+}
