@@ -59,10 +59,32 @@ html{
 }
 .search-box{
     position: absolute;
+    top: 110%;
+    left: 100%;
+    width: 50%;
+    right: 2rem;
 }
+.search-box input{
+    padding: 1.5rem 2rem;
+    width: 100%;
+    border-radius: 15px;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.shopping-cart{
+    position: absolute;
+    top:110%;
+    width:40rem;
+    right: 2rem;
+}
+.search-box{
+    position: relative;
+    display: flex;
+}
+.shopping-box img{
+     width: 200px;
 
-
-
+}
 
 
 
