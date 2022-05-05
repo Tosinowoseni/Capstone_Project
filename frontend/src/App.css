@@ -57,6 +57,9 @@ html{
 #menu-bar{
     display: none;
 }
+.search-box.active{
+    left: 40%;
+}
 .search-box{
     position: absolute;
     top: 110%;
@@ -71,22 +74,41 @@ html{
     border: 0;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+.shopping-cart.active{
+    left: 0;
+}
 .shopping-cart{
     position: absolute;
     top:110%;
     width:40rem;
     right: 2rem;
+    left: 100%;
 }
 .search-box{
     position: relative;
     display: flex;
+    align-items: center;
+    padding: 5rem;
 }
 .shopping-box img{
-     width: 200px;
-
+     width: 150px;
 }
-
-
+.fa-times{
+    position: absolute;
+    top: 50%;
+    right: 2rem;
+    transform: translateY(-50%);
+    font-size: 2rem;
+}
+.shop-content h3{
+    font-size: 1.7rem;
+    padding: .5rem;
+}
+.shop-content span{
+    margin: 5rem;
+    font-size: 1.7rem;
+}
 
 
 
@@ -136,4 +158,7 @@ html{
         padding: 1.5rem;
         border-radius: 15px;
     }
+}
+.img-orangetshirt{
+    width: 300px;
 }
