@@ -37,8 +37,9 @@ const Navbar = () => {
         <Link to='/Kids'>
         <li><a>Kids</a></li>
         </Link>
+        <Link to='/Menu'>
         <li><a>Menu</a></li>
-
+        </Link>
         <button onClick={()=> navigate("/Mens")}></button>
 
       </ul>

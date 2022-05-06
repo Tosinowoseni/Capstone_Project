@@ -9,6 +9,7 @@ import RegisterPage from "./pages/RegisterPage/RegisterPage";
 import MensPage from "./pages/MensPage/MensPage";
 import WomensPage from "./pages/WomensPage/WomensPage";
 import KidsPage from "./pages/KidsPage/KidsPage";
+import MenuPage from "./pages/MenuPage/MenuPage";
 
 // Component Imports
 import Navbar from "./components/NavBar/NavBar";
@@ -30,6 +31,7 @@ function App() {
             </PrivateRoute>
           }
         />
+        <Route path="Menu" element={<MenuPage />} />
         <Route path="/kids" element={<KidsPage />} />
         <Route path="/womens"element={<WomensPage />} />
         <Route path="/mens" element={<MensPage />} />
