@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import useAuth from "../../hooks/useAuth";
 import NikeJordan from './image/NikeJordan.jpg'
+import orangetshirt from './image/orangetshirt.jpg'
 
 import axios from "axios";
 

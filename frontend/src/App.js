@@ -6,6 +6,9 @@ import "./App.css";
 import HomePage from "./pages/HomePage/HomePage";
 import LoginPage from "./pages/LoginPage/LoginPage";
 import RegisterPage from "./pages/RegisterPage/RegisterPage";
+import MensPage from "./pages/MensPage/MensPage";
+import WomensPage from "./pages/WomensPage/WomensPage";
+import KidsPage from "./pages/KidsPage/KidsPage";
 
 // Component Imports
 import Navbar from "./components/NavBar/NavBar";
@@ -27,6 +30,9 @@ function App() {
             </PrivateRoute>
           }
         />
+        <Route path="/kids" element={<KidsPage />} />
+        <Route path="/womens"element={<WomensPage />} />
+        <Route path="/mens" element={<MensPage />} />
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/login" element={<LoginPage />} />
       </Routes>

@@ -28,7 +28,19 @@ const Navbar = () => {
         </li>
       </ul>
       <ul>
-        <li><a>Mens</a></li>
+        <Link to='/Mens'>
+          <li><a>Mens</a></li>
+        </Link>
+        <Link to='/Womens'>
+        <li><a></a>Womens</li>
+        </Link>
+        <Link to='/Kids'>
+        <li><a>Kids</a></li>
+        </Link>
+        <li><a>Menu</a></li>
+
+        <button onClick={()=> navigate("/Mens")}></button>
+
       </ul>
     </div>
   );
