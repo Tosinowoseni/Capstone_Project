@@ -31,9 +31,9 @@ const HomePage = () => {
     <div className="container">
       <h1>Home Page for {user.username}!</h1>
       <img src={NikeJordan} alt="shoe" />
-      <div class="nav-links">
-        
-      </div>
+
+
+{/* <!-- main background image end --> */}
       {cars &&
         cars.map((car) => (
           <p key={car.id}>
