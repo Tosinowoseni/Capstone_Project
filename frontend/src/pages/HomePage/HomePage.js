@@ -30,7 +30,7 @@ const HomePage = () => {
   }, [token]);
   return (
     <div className="container">
-      <h1>Home Page for {user.username}!</h1>
+      <h1>Welcome To Fatts House Fashion And Beauty Store</h1>
       <img src={NikeJordan} alt="shoe" />
 
 

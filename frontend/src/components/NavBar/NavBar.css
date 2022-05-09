@@ -1,7 +1,9 @@
 ul {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   list-style-type: none;
+  align-items: center;
 }
 
 li {
@@ -18,9 +20,11 @@ li {
 
 .navBar button {
   background: transparent;
-  border: 2px solid white;
+  border: 2px solid black;
   color: white;
   padding: 0.4rem 0.5rem;
+  display: flex;
+  width: 150px;
 }
 
 .navBar button:hover {
@@ -32,4 +36,14 @@ li {
 .brand {
   cursor: pointer;
   font-size: 2rem;
+}
+.image-wrapper {
+  background-color: white;
+    width: fit-content;
+    padding: 1px 4px;
+}
+.image-wrapper2 {
+  background-color: white;
+    width: fit-content;
+    padding: 0;
 }

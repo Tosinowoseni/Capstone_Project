@@ -17,7 +17,6 @@ import Footer from "./components/Footer/Footer";
 
 // Util Imports
 import PrivateRoute from "./utils/PrivateRoute";
-
 function App() {
   return (
     <div classname="App">

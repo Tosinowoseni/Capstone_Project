@@ -3,19 +3,29 @@ import { useContext } from "react";
 import { useNavigate, Link, useLocation } from "react-router-dom";
 import AuthContext from "../../context/AuthContext";
 import "./NavBar.css";
+import cart from '../../images/25619.png'
+
 
 const Navbar = () => {
   const { logoutUser, user } = useContext(AuthContext);
   const navigate = useNavigate();
   return (
     <div className="navBar">
+      <div className="image-wrapper"><img src={cart} width={30} alt="" /></div>
+      <ul className="app_navbar-links">
+        <li className="p_opensans"><a href="#home"></a>Home</li>
+        <li className="p_opensans"><a href="#about"></a>About</li>
+        <li className="p_opensans"><a href="#products"></a>Products</li>
+        <li className="p_opensans"><a href="#awards"></a>Awards</li>
+      </ul>
       <ul>
         <li className="brand">
           <Link to="/" style={{ textDecoration: "none", color: "white" }}>
-            <b>Online Fashion Shop</b>
+            <b>Online Fashion Store</b>
           </Link>
         </li>
         <li>
+          
           
           <ul>
             <li><a></a></li>
@@ -43,6 +53,7 @@ const Navbar = () => {
         <button onClick={()=> navigate("/Mens")}></button>
 
       </ul>
+      
     </div>
   );
 };
