@@ -1,5 +1,5 @@
 import React from 'react';
-import productpage from './image/download (1).jpg'
+import productpage from './image/bodycream.jpg'
 
 const productpage = () => {
      return(

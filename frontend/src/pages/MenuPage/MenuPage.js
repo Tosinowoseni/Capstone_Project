@@ -1,5 +1,5 @@
 import React from "react";
-import products from '../../images/download (1).jpg'
+import products from '../../images/bodycream.jpg'
 
 const MenuPage = (props) => {
       return(
