@@ -11,16 +11,18 @@ li {
 }
 
 .navBar {
-  background: black;
-  box-shadow: 4px 2px 5px gray;
-  color: white;
+  background: orange;
+  box-shadow: 4px 2px 5px white;
+  color: whitesmoke;
   margin-bottom: 2rem;
   padding: 1.5rem 2rem;
+  list-style: circle;
+  cursor: pointer;
 }
 
 .navBar button {
   background: transparent;
-  border: 2px solid black;
+  border: 2px solid whitesmoke;
   color: white;
   padding: 0.4rem 0.5rem;
   display: flex;

@@ -13,9 +13,9 @@ const Navbar = () => {
     <div className="navBar">
       <div className="image-wrapper"><img src={cart} width={30} alt="" /></div>
       <ul className="app_navbar-links">
-        <li className="p_opensans"><a href="#home"></a>Home</li>
+        <li className="p_opensans"><a href="#home"></a>Cart</li>
         <li className="p_opensans"><a href="#about"></a>About</li>
-        <li className="p_opensans"><a href="#products"></a>Products</li>
+        <li className="p_opensans"><a href="#products"></a>Contact</li>
         <li className="p_opensans"><a href="#awards"></a>Awards</li>
       </ul>
       <ul>
@@ -49,6 +49,9 @@ const Navbar = () => {
         </Link>
         <Link to='/Menu'>
         <li><a>Menu</a></li>
+        </Link>
+        <Link to='/products'>
+          <li><a>Product</a></li>
         </Link>
         <button onClick={()=> navigate("/Mens")}></button>
 
