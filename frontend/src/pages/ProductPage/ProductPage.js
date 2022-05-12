@@ -7,7 +7,19 @@ const ProductPage = () => {
         <div>
          <h1>productpage</h1>
         <img src={BodyCream} height={400} width={400}  alt="BodyCream" />
+        <div>
+            <h3>Body Cream</h3>
+        </div>
+        <div>
+            <p>$48.00</p>
+        </div>
         <img src={Facebalm} height={400} width={400} alt="Facebalm" />
+        <div>
+            <h3>Face Balm</h3>
+        </div>
+        <div>
+            <p>$35.00</p>
+        </div>
         </div>
     );
 };
