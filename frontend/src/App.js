@@ -17,9 +17,11 @@ import Footer from "./components/Footer/Footer";
 
 // Util Imports
 import PrivateRoute from "./utils/PrivateRoute";
+import ProductPage from "./pages/ProductPage/ProductPage";
 function App() {
   return (
     <div classname="App">
+      <img src="" />
         <Navbar />
       <Routes>
         <Route
@@ -36,6 +38,7 @@ function App() {
         <Route path="/mens" element={<MensPage />} />
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/products" element={<ProductPage />} />
       </Routes>
       <Footer />
     </div>

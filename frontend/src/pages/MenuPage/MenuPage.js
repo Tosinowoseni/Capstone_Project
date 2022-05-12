@@ -9,4 +9,4 @@ const MenuPage = (props) => {
         
     )
 }
-export default MenuPage
+export default MenuPage;

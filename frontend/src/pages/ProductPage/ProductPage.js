@@ -1,14 +1,15 @@
 import React from 'react';
-import productpage from '../public/images/bodycream.jpg'
+import BodyCream from './image/BodyCream.jpg'
+import Facebalm from './image/Facebalm.jpg'
 
+const ProductPage = () => {
+    return (
+        <div>
+         <h1>productpage</h1>
+        <img src={BodyCream} height={400} width={400}  alt="BodyCream" />
+        <img src={Facebalm} height={400} width={400} alt="Facebalm" />
+        </div>
+    );
+};
 
-
-function Images () {
-     return(
-         <div>
-            <img src="../public/images/bodycream.jpg" alt='' />
-         </div>
-    
-    )
-}
-export default productpage;
+export default ProductPage;
