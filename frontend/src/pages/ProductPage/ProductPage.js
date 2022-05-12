@@ -3,6 +3,10 @@ import BodyCream from './image/BodyCream.jpg'
 import Facebalm from './image/Facebalm.jpg'
 import Blacksoap from './image/Blacksoap.jpg'
 import Facecleanser from './image/Facecleanser.jpg'
+import faceoils from './image/Faceoils.jpg'
+import Handsoap from './image/Handsoap.jpg'
+import scrub from './image/scrub.jpg'
+import sheabutter from './image/sheabutter.jpg'
 
 const ProductPage = () => {
     return (
@@ -36,7 +40,36 @@ const ProductPage = () => {
         <div>
             <p>$35.00</p>
         </div>
+        <img src={faceoils} height={400} width={400} alt="Faceoils" />
+        <div>
+            <h3>Face Oils</h3>
         </div>
+        <div>
+            <p>$25.00</p>
+        </div>
+        <img src={Handsoap} height={400} width={400} alt="Handsoap" />
+        <div>
+            <h3>Handsoap</h3>
+        </div>
+        <div>
+            <p>$20.00</p>
+        </div>
+        <img src={scrub} height={400} width={400} alt="scrub" />
+        <div>
+            <h3>Body Scrub</h3>
+        </div>
+        <div>
+            <p>$25.00</p>
+        </div>
+        <img src={sheabutter} height={400} width={400} alt="sheabutter" />
+        <div>
+            <h3>Sheabutter</h3>
+        </div>
+        <div>
+            <p>$60.00</p>
+        </div>
+        </div>
+
     
     );
 };
