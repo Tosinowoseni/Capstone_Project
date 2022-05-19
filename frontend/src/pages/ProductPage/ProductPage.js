@@ -1,5 +1,5 @@
 import React from 'react';
-import BodyCream from './image/BodyCream.jpg'
+import BodyCream from './image/bodycreamc.jpg'
 import Facebalm from './image/Facebalm.jpg'
 import Blacksoap from './image/Blacksoap.jpg'
 import Facecleanser from './image/Facecleanser.jpg'
@@ -10,6 +10,7 @@ import sheabutter from './image/sheabutter.jpg'
 
 const ProductPage = () => {
     return (
+        
         <div>
          <h1>productpage</h1>
         <img src={BodyCream} height={400} width={400}  alt="BodyCream" />
@@ -69,6 +70,7 @@ const ProductPage = () => {
             <p>$60.00</p>
         </div>
         </div>
+        
 
     
     );

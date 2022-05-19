@@ -19,12 +19,17 @@ const MensPage = (props) => {
         <div>
             <p>$40.00</p>
         </div>
-        <img src={Monaco} height={400} width ={400} alt="Monaco" />
         <div>
-            <h3>Monaco T-Shirt</h3>
+            <button>1</button>
+            <a href="#"><button>ADD TO CART</button>
+            </a>
+        </div>
+        
+        <div>
+            
         </div>
         <div>
-            <p>$50.00</p>
+            <p></p>
         </div>
         <img src={OversizedBlackT} height={400} width ={400} alt="OversizedBlackT" />
         <div>
@@ -33,12 +38,22 @@ const MensPage = (props) => {
         <div>
             <p>$45.00</p>
         </div>
+        <div>
+            <button>2</button>
+            <a href="#"><button>ADD TO CART</button>
+            </a>
+        </div>
         <img src={OversizedBlueT} height={400} width={400} alt="OversizedBlueT" />
         <div>
             <h3>OversizedBlueT</h3>
         </div>
         <div>
             <p>$45.00</p>
+        </div>
+        <div>
+            <button>3</button>
+            <a href="#"><button>ADD TO CART</button>
+            </a>
         </div>
         <img src={OversizedWhiteT} height={400} width={400} alt="OversizedWhitet" />
         <div>
@@ -47,12 +62,22 @@ const MensPage = (props) => {
         <div>
             <p>$45.00</p>
         </div>
+        <div>
+            <button>4</button>
+            <a href="#"><button>ADD TO CART</button>
+            </a>
+        </div>
         <img src= {Longcream} height={400} width={400} alt="Longcream" />
         <div>
             <h3>Long Cream T Shirt</h3>
         </div>
         <div>
             <p>$50.00</p>
+        </div>
+        <div>
+            <button>6</button>
+            <a href="#"><buton>ADD TO CART</buton>
+            </a>
         </div>
         <img src={MensBrownCoat} height={400} width={400} alt="MensBrownCoat" />
         <div>
@@ -61,12 +86,22 @@ const MensPage = (props) => {
         <div>
             <p>$100.00</p>
         </div>
+        <div>
+            <button>7</button>
+            <a href="#"><button>ADD TO CART</button>
+            </a>
+        </div>
         <img src={SpaceGrayT} height={400} width={400} alt="SpaceGrayt" />
         <div>
             <h3>SpaceGrayT</h3>
         </div>
         <div>
             <p>$60.00</p>
+        </div>
+        <div>
+            <button>9</button>
+            <a href="#"><button>ADD TO CART</button>
+            </a>
         </div>
         </div>
     )
