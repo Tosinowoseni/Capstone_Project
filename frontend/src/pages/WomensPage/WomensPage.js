@@ -18,12 +18,22 @@ const WomensPage = (props) => {
         <div>
             <p>$52.00</p>
         </div>
+        <div>
+            <button>1</button>
+            <a href="#"><button>ADD TO CART</button>
+            </a>
+        </div>
         <img src={LongPinkShirt}  height={400} width={400} alt='LongPinkShirt' />
         <div>
             <h3>Long Pink Shirt</h3>
         </div>
         <div>
             <p>$52.00</p>
+        </div>
+        <div>
+            <button>2</button>
+            <a href="#"><button>ADD TO CART</button>
+            </a>
         </div>
         <img src={LongSlitDress} height={400} width={400} alt='Long slit Dress' />
         <div>
@@ -32,12 +42,22 @@ const WomensPage = (props) => {
         <div>
             <p>$60.00</p>
         </div>
+        <div>
+            <button>3</button>
+            <a href="#"><button>ADD TO CART</button>
+            </a>
+        </div>
         <img src={Longwhiteshirt} height={400} width={400} alt="Long white shirt" />
         <div>
             <h3>Long white shirt</h3>
         </div>
         <div>
             <p>$40.00</p>
+        </div>
+        <div>
+            <button>4</button>
+            <a href="#"><button>ADD TO CART</button>
+            </a>
         </div>
         <img src={NikeRun} height={400} width={400} alt="Nike Run Pink" />
         <div>
@@ -46,6 +66,11 @@ const WomensPage = (props) => {
         <div>
             <p>$50.00</p>
         </div>
+        <div>
+            <button>5</button>
+            <a href="#"><button>ADD TO CART</button>
+            </a>
+        </div>
         <img src={OversizedPink} height={400} width={400} alt="Oversized Pink" />
         <div>
             <h3>Oversized Pink T</h3>
@@ -53,12 +78,22 @@ const WomensPage = (props) => {
         <div>
             <p>$55.00</p>
         </div>
+        <div>
+            <button>6</button>
+            <a href="#"><button>ADD TO CART</button>
+            </a>
+        </div>
         <img src={SkyBlue} height={400} width={400} alt="Sky Blue" />
         <div>
             <h3>Sky Blue Denim</h3>
         </div>
         <div>
             <p>$45.00</p>
+        </div>
+        <div>
+            <button>7</button>
+            <a href="#"><button>ADD TO CART</button>
+            </a>
         </div>
         </div>
     )

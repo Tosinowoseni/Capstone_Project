@@ -16,12 +16,22 @@ const KidsPage = (props) => {
         <div>
             <p>$25.00</p>
         </div>
+        <div>
+            <button>1</button>
+            <a href="#"><button>ADD TO CART</button>
+            </a>
+        </div>
         <img src={GirlsDress} height={400} width={400} alt="Girls Dress" />
         <div>
             <h3>Girls Cream Dress</h3>
         </div>
         <div>
             <p>$30.00</p>
+        </div>
+        <div>
+            <button>2</button>
+            <a href="#"><button>ADD TO CART</button>
+            </a>
         </div>
         <img src={Blackshorts} height={400} width={400} alt="Black shorts" />
         <div>
@@ -30,6 +40,11 @@ const KidsPage = (props) => {
         <div>
             <p>$30.00</p>
         </div>
+        <div>
+            <button>3</button>
+            <a href="#"><button>ADD TO CART</button>
+            </a>
+        </div>
         <img src={Mint} height={400} width={400} alt="Boys Mint" />
         <div>
             <h3>Boys Mint Hoodie</h3>
@@ -37,12 +52,22 @@ const KidsPage = (props) => {
         <div>
             <p>$40.00</p>
         </div>
+        <div>
+            <button>4</button>
+            <a href="#"><button>ADD TO CART</button>
+            </a>
+        </div>
         <img src={Colorful} height={400} width={400} alt="Girls Colorful Dres" />
         <div>
             <h3>Girls Colorful Dress</h3>
         </div>
         <div>
             <p>$35.00</p>
+        </div>
+        <div>
+            <button>5</button>
+            <a href="#"><button>ADD TO CART</button>
+            </a>
         </div>
         </div>
     )
